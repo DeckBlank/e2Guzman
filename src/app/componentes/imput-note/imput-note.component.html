@@ -1,0 +1,13 @@
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Titulo</label>
+    <input type="text" class="form-control" id="title" [(ngModel)]="title" placeholder="Cumpleaños de...">
+  </div>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Imagen</label>
+    <input type="text" class="form-control" id="image" [(ngModel)]="image" placeholder="https://1.bp.blogspot.com/-79DdxzZkDog/T76QV6v5IuI/AAAAAAAAAEY/6DzpGZzsmfA/s320/homerocatolico_456_336.jpg">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+    <textarea class="form-control" id="description" [(ngModel)]="description" rows="3"></textarea>
+  </div>
+  <button type="button" class="btn btn-success" (click)="guardar()">Guardar</button>
